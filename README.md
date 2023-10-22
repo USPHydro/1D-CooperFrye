@@ -7,4 +7,4 @@ This code receives an emitted Freeze-out (1+1)D hypersurface and calculates the 
 
 $\tau$    $\eta_s$    $u_\tau$    $u_{\eta_s}$    $\mathrm{d}s_\tau$    $\mathrm{d}s_\eta$    $s$    $T$    $p$    $\epsilon$
 
-where $s$ is entropy density, $T$ is temperature, $p$ is pressure and $\epsilon$ is energy density. $\mathrm{d}s_\mu$ is the covariant hypersurface element. The output files is _dndeta.dat_ (gross distribution calculation) and _sdndeta.dat_ (smeared calculation). 
+where $s$ is entropy density, $T$ is temperature, $p$ is pressure and $\epsilon$ is energy density. $\mathrm{d}s_\mu$ is the covariant hypersurface element. The output files is _dndeta.dat_ (gross distribution calculation) and _sdndeta.dat_ (smeared calculation). The unit of Freeze-out temperature must be GeV.
