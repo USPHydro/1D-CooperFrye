@@ -1,4 +1,4 @@
-# -1-1-D-Cooper-Frye-SPH
+# (1+1)-D Cooper-Frye
 Code for (1+1)D Cooper-Frye (not only for SPH)
 
 **_dndeta.cpp:_**
