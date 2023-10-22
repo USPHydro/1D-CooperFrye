@@ -76,7 +76,7 @@ class CooperFrye{
                     pcdotdsigma = p[0]*hs[i].dsigma_t + p[3]*hs[i].dsigma_z,
                     f = phaseSpaceDist(pcdotu/hs[i].T, g, a);
                     //cout<<"T = "<<hs[i].T<<endl;
-            ed3nd3p += pcdotdsigma*f;
+            if(pcdotdsigma > 0) ed3nd3p += pcdotdsigma*f;
         }
 
         return ed3nd3p;
