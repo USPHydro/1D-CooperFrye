@@ -9,6 +9,9 @@ $\tau$    $\eta_s$    $u_\tau$    $u_{\eta_s}$    $\mathrm{d}s_\tau$    $\mathrm
 
 where $s$ is entropy density, $T$ is temperature, $p$ is pressure and $\epsilon$ is energy density. $\mathrm{d}s_\mu$ is the covariant hypersurface element. The output files is _dndeta.dat_ (gross distribution calculation) and _sdndeta.dat_ (smeared calculation). The unit of Freeze-out temperature must be GeV.
 
+
+**_Calculation Method:_**
+
 Since the invariant one-particle distribution is
 
 $$ \mathcal N_1(p) = p^0 \dfrac{\mathrm{d}^3N}{\mathrm{d}^3p} = \dfrac{1}{m_T}\dfrac{\mathrm{d}^3N}{\mathrm{d}m_T\mathrm{d}\phi \mathrm{d}y}$$
