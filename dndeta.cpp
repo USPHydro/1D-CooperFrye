@@ -64,7 +64,7 @@ class CooperFrye{
 
     //Phase-Space Distribution
     double phaseSpaceDist(double x, double g, double a){
-        return g/(exp(x) + a);
+        return (g/pow(2*M_PI,3.))*(1./(exp(x) + a));
     }
 
     //Ed3N/d3p - Invariant One-Particle Distribution
