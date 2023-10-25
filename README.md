@@ -18,15 +18,15 @@ $$ \mathcal N_1(p) = p^0 \dfrac{\mathrm{d}^3N}{\mathrm{d}^3p} = \dfrac{1}{m_T}\d
 
 [where $p$ is parametrized as $p=(m_T \cosh y, p_T \cos \phi, p_T \sin \phi, m_T \sinh y)$] and 
 
-$$ \mathrm{d} y = \dfrac{|\vec p|}{E} \mathrm{d}\eta $$ 
+$$ \mathrm{d} y = \dfrac{|\vec p|}{p^0} \mathrm{d}\eta $$ 
 
 we get
 
-$$ \mathcal N_1(p) = \dfrac{|\vec p|}{p^0 m_T}\dfrac{\mathrm{d}^3N}{\mathrm{d}m_T\mathrm{d}\phi \mathrm{d}\eta} $$
+$$ \mathcal N_1(p) = \dfrac{p^0}{|\vec p| m_T}\dfrac{\mathrm{d}^3N}{\mathrm{d}m_T\mathrm{d}\phi \mathrm{d}\eta} $$
 
 and this leads for
 
-$$\dfrac{\mathrm{d} N}{\mathrm{d}\eta} = \int\limits_0^{2\pi} \mathrm{d} \phi \int\limits_m^{\infty} \mathrm{d} m_T \frac{p^0 m_ T}{|\vec p|} \mathcal N_1(p). $$ 
+$$\dfrac{\mathrm{d} N}{\mathrm{d}\eta} = \int\limits_0^{2\pi} \mathrm{d} \phi \int\limits_m^{\infty} \mathrm{d} m_T \frac{|\vec p| m_ T}{p^0} \mathcal N_1(p). $$ 
 
 The Cooper-Frye description for the invariant one-particle distribution is
 
