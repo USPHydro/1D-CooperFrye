@@ -16,7 +16,7 @@ Since the invariant one-particle distribution is
 
 $$ \mathcal N_1(p) = p^0 \dfrac{\mathrm{d}^3N}{\mathrm{d}^3p} = \dfrac{1}{m_T}\dfrac{\mathrm{d}^3N}{\mathrm{d}m_T\mathrm{d}\phi \mathrm{d}y}$$
 
-[where $p$ is parametrized as $p=(m_T \cosh y, p_T \cos \phi, p_T \sin \phi, m_T \sinh y)$] and 
+[where $p$ is parameterized as $p=(m_T \cosh y, p_T \cos \phi, p_T \sin \phi, m_T \sinh y)$] and 
 
 $$ \mathrm{d} y = \dfrac{|\vec p|}{p^0} \mathrm{d}\eta $$ 
 
@@ -36,6 +36,6 @@ and we discretize this in hypersurface elements, as
 
 $$ \mathcal N_1(p) = \sum_i \mathrm{d} \sigma_i \cdot p f(u_i \cdot p). $$
 
-At this point, the SPH method provides at Freeze-out $\mathcal{d}\sigma_i, u_i$ and termodynamical quantities such that temperature, energy density, etc. Then we must only construt $p$ to calculate \mathcal N_1(p) and therefore ${\mathrm{d} N}/{\mathrm{d}\eta}$
+At this point, the SPH method provides at Freeze-out $\mathrm{d}\sigma_i, u_i$ and termodynamical quantities such that temperature, energy density, etc. Then we must only construt $p$ to calculate \mathcal N_1(p) and therefore ${\mathrm{d} N}/{\mathrm{d}\eta}$
 
 
